@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPERAL AUTO RENTALS: Car-rentals and parts repair</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="car">
+        <div class="menubar">
+<canvas id="canv" style="display: block;"></canvas>
+
+            <div class="stroll">
+                <div class="menu"><div class="options"><div> a <span class="or">stroll</span> or a <span class="or">scroll</span></div> <div id="mid">...</div><div>Pun intended <span class="or">🕶️</span></div>  </div></div>
+            </div>
+            <div class="menu">
+                <div class="options"> Know us</div>
+                <div class="options"> Our contact</div>
+                <div class="options"> Buy a ride</div>
+                <div class="options"> Book with us</div>
+            </div>
+        </div>
+        <div class="headtext">Emperal Auto Rentals</div>
+        <img id="car1" src="./2/imgs/1car.png"/>
+
+    </div>
+    <div class="headtexta"> " A full tank welcome ! "    <div class="headtextb"></div>
+</div>
+
+    <div class="point1"> <div class="neat say"><span> We welcome  </span> <span>you to</span><span> our brand  ⭐ </span></div></div>
+<div class="point1"> <div class="neat say"> <span>Where your</span> <span>satisfaction is</span> <span>assured ⭐</span></div></div>
+<div class="point1"><div class="neat say"><span>Get ready to give</span><span>it a taste !  ⭐</span></div></div>
+<div class="popup">
+    <div class="box">
+        <div class="boxleft"><div class="bleft1"></div>
+        <div class="bleft2">
+
+            <marquee direction="up" class="wheel"> Emperal Auto Rentals</marquee>
+        </div></div>
+     
+        <div class="boxright">
+
+            <svg id="vectors" viewBox="0 0 100 100">
+                <g>
+                    <defs>
+                        <pattern id="carPattern" width="100" height="100" patternUnits="userSpaceOnUse">
+                            <image href="./2/imgs/car8.webp" width="105" y="-30" />
+                        </pattern>
+                    </defs>
+            
+                    <!-- First Path -->
+                    <path id="v1" fill="url(#carPattern)" class="poppath"
+                        d="M 5,1 L 95,1 A 5,5,0,0,1,99,5 L 99, 50 A 5,5,0,0,1,95,55 L 36,55 A 5,5,0,0,1,31,50 L 31,40 A 5,5,0,0,0,27,35 L5,35 A5,5,0,0,1,1,31 L 1,5 A 5,5,0,0,1,5,1 Z">
+                    </path>
+            
+                    <text x="3" y="6" id="italy" font-size="3" fill="white" font-family="Arial" font-weight="bold">Proceed To Rent</text>
+                    <text x="5" y="13" font-size="7" fill="white" font-family="Arial" font-weight="bold">Or  </text>
+                    <text x="10" y="20" id="italy" font-size="8" fill="white" font-family="Arial" font-weight="bold"> Get Parts </text>
+            
+                    <path id="v2" class="poppath" fill="url(#carPattern)"
+                        d="M 5,36 L 26,36 L 26,36 A 5,5,0,0,1,30,41 L 30,51 A5,5,0,0,1,26,55 L5,55 A 5,5,0,0,1,1,50 L1,41 A 5,5,0,0,1,5,36 z">
+                    </path>
+            
+                    <text x="2" y="45" font-size="6" fill="white"   font-family="'Playwrite IT Moderna', cursive" font-weight="bold">Car </text>
+                    <text x="6" y="52" id="rent" font-size="6" fill="white"   font-family="'Playwrite IT Moderna', cursive" font-weight="bold">Rentals </text>
+                </g>
+            </svg>
+            <div class="messages">
+                <div class="top">Our Deals</div>
+                <div class="down">
+                <div class="types">
+                    <div class="category">
+                        <div class="cattop">4 X 4</div>
+                        <div class="catdown"><span class="ptag">
+                            <span>price: </span>
+                            <span class="price cedi">GHS</span>
+                        </span> <span class="price">4000 - 7000</span> </div>
+                    </div>
+                    <div class="category">
+                        <div class="cattop">Comfort</div>
+                        <div class="catdown"><span class="ptag">
+                            <span>price: </span>
+                            <span class="price cedi">GHS</span> 
+                        </span>
+
+                            <span class="price">1000 - 3000</span>
+                    </div>
+                    </div>
+                    <div class="category">
+                        <div class="cattop">Luxuray</div>
+                        <div class="catdown"><span class="ptag">
+                            <span>price: </span>
+                            <span class="price cedi">GHS</span>
+                        </span>
+
+                            <span class="price">6000 - 9000</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+    <div class="next">
+        <model-viewer id="car2" alt="Toyota" src="./2/imgs/toyota.glb" auto-rotate camera-controls  poster=""
+            disable-zoom shadow-intensity="1" touch-action="pan-y">
+        </model-viewer>
+        <div class="smarttext"> This is a very beautiful piece</div>
+    </div>
+
+  
+
+</body>
+</html>
