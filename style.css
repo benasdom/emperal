@@ -703,10 +703,138 @@ background-size: 300px;
 .front{
   height:100vh;
 }
+.rowed{
+display:flex;
+align-items: center;
+justify-content:center;
+flex-direction:row;
+font-size:30px;
+}
+.marq{
+height:50px;
+margin:0px;
+  aspect-ratio: 1/1;
+  -webkit-aspect-ratio:1/1;
+  color:white;
+  height:99%;
+  font-family:"Michroma",sans-serif;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  background:black;
+  letter-spacing:0px;
+  font-size: 20px;
+  text-align:center;
+
+  width:25px;
+  margin-top:10px;
+  letter-spacing:4px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+.r{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:80%;
+  position:relative;
+  margin:auto;
+  padding-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+.topt{
+  font-family: "Aguafina Script", cursive;
+  font-weight:200;
+}
+.r1{
+font-size: 70px;
+position: absolute;
+width:100px;
+text-align:center;
+top:0;
+left:0;
+margin-top:-10px;
+justify-content:center;
+color:rgba(255, 255, 255, 0.269);
+font-family: "Righteous", sans-serif;
+font-weight:800;
+
+}
+.r2{
+  width:70%;
+  text-align:center;
+  font-family:"Michroma",sans-serif;
+  color:rgba(255, 255, 255, 0.415);
+  margin:auto;
+  padding:10px;
+  max-height:150px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(5rem);
+  backdrop-filter: blur(5rem);
+}
+.reasons{
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:500px;
+  height:200px;
+  margin-top:10px;
+  background-image:
+  radial-gradient(rgba(0, 0, 0, 0.073), rgba(0, 0, 0, 0.21) 97%), 
+  repeating-conic-gradient(from 45deg, rgba(0, 0, 0, 0.5) 85deg,
+   rgba(0, 0, 0, 0.5) 90deg, rgba(0, 0, 0, 0.07) 90deg, rgba(0, 0, 0, 0.07) 180deg),
+   var(--url);
+  background-size: cover, 5em 5em, 550px;
+  background-attachment:fixed,fixed,scroll;
+  background-position:center,right,center;
+  border:5px solid transparent;
+  outline-offset:-20px;
+  -moz-outline-radius-bottomleft: red;
+  outline:15px double rgba(255, 255, 255, 0.09);
+
+  animation: gates 10s linear infinite;
+  border-radius: 30px;
+}
+
+@keyframes gates{
+  100%{
+    background-position:center,left,center;
+  }
+}
+.reasons:nth-child(1){
+ 
+  --url:url(./2/imgs/car5.webp);
+}
+.reasons:nth-child(2){
+
+  --url:url(./2/imgs/car4.webp);
+
+}
+.reasons:nth-child(3){
+
+  --url:url(./2/imgs/car3.webp);
+
+
+}
+.reasons:nth-child(4){
+  --url:url(./2/imgs/car6.webp);
+
+}
+.fix2{
+display:flex;
+justify-content:center;
+align-items: center;
+text-align: center;
+width:30px;
+height:100px;
+}
 .smarttext{
   position:sticky;
   top:60vh;
   height:100vh;
+  background:rgb(190, 179, 197);
   color:black;
 }
 .next{
