@@ -609,56 +609,40 @@ background-size: 300px;
 .say span:nth-child(1){
   animation-range-start: cover 45vh;
   animation-range-end: cover 90vh;
-
 }
 .say span:nth-child(2){
   animation-range-start: cover 80vh;
   animation-range-end: cover 150vh;
-
 }
 .say span:nth-child(3){
   animation-range-start: cover 150vh;
   animation-range-end: cover 200vh;
-
 }
 
 .point1:nth-child(3) .neat{
   margin-left: 150px;
   z-index: 100000000;
-
 }
 .point1:nth-child(4) .neat{
   margin-left: 350px;
   z-index: 10000000;
-
 }
 .point1:nth-child(5) .neat{
   margin-left: 550px;
   z-index: 100;
-
 }
-
 
 .point1:nth-child(3){
   z-index: 0;
   pointer-events: none;
-
-
-
 }
   .point1:nth-child(4){
   z-index: 0;
   pointer-events: none;
-
-
-
 }
 .point1:nth-child(5){
-  
   z-index: 0;
   pointer-events: none;
-
-
 }
 .or{
   padding:1px;
@@ -669,28 +653,22 @@ background-size: 300px;
 @keyframes outs {
   0%,10%{
     background:linear-gradient(45deg,transparent 65%,rgba(119, 255, 92, 0));
-
   }
   15%,35%{
     background:linear-gradient(45deg,transparent 65%,rgba(119, 255, 92, 0.7));
-
   }
   35%,55%{
     filter:hue-rotate(45deg)
-
   }
   55%,100%{
     filter:hue-rotate(180deg)
-
   }
-  
 }
 .point1{
   height:100vh;
   width:100%;
   position:sticky;
   top:0;
-
 }
 #car2{
   width:100% ;
