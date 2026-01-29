@@ -1,12 +1,14 @@
 
-    var
+  
+  
+  let
   canv 			= document.getElementById('canv'),
   ctx				= canv.getContext('2d');
 
 canv.width = 700;
 canv.height = 400;
 
-var
+let
   center_x 	= canv.width / 2,
   center_y 	= canv.height / 2 + 100,
   radius 		= 200;
@@ -18,7 +20,7 @@ ctx.beginPath();
 ctx.arc(center_x, center_y, radius, -0.2, Math.PI + 0.2, true);
 ctx.stroke();
 
-var
+let
   l_ = -2.93,
   l_t = -2.3,
   simpleAnimationTimer = setInterval(function() {
@@ -29,7 +31,7 @@ var
     ctx.lineTo(center_x, center_y - 40);
     ctx.fill();
 
-    var
+    let
       grad = ctx.createRadialGradient(center_x, center_y, 50, center_x, center_y, radius);
 
     // grad.addColorStop(0.2, 'rgba(246,178,86, 0.2)');
@@ -61,7 +63,7 @@ var
 
 function drawTick(angle, from, to)
 {
-  var
+  let
     angle = angle, // 168 is start
     xs = center_x + radius * Math.cos(-angle*Math.PI/180) * from,
     ys = center_y + radius * Math.sin(-angle*Math.PI/180) * from,
